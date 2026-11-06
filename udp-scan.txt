@@ -1,0 +1,28 @@
+# Nmap 7.95 scan initiated Wed Nov  4 05:03:34 2026 as: /usr/lib/nmap/nmap -sU --top-ports 20 -oN /home/kali/Nmap-Security-Assessment/05-UDP-Assessment/udp-scan.txt 192.168.202.128
+Nmap scan report for 192.168.202.128
+Host is up (0.0013s latency).
+
+PORT      STATE         SERVICE
+53/udp    open          domain
+67/udp    closed        dhcps
+68/udp    open|filtered dhcpc
+69/udp    open|filtered tftp
+123/udp   closed        ntp
+135/udp   closed        msrpc
+137/udp   open          netbios-ns
+138/udp   open|filtered netbios-dgm
+139/udp   closed        netbios-ssn
+161/udp   closed        snmp
+162/udp   closed        snmptrap
+445/udp   closed        microsoft-ds
+500/udp   closed        isakmp
+514/udp   closed        syslog
+520/udp   closed        route
+631/udp   closed        ipp
+1434/udp  closed        ms-sql-m
+1900/udp  closed        upnp
+4500/udp  closed        nat-t-ike
+49152/udp closed        unknown
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+
+# Nmap done at Wed Nov  4 05:04:06 2026 -- 1 IP address (1 host up) scanned in 32.24 seconds

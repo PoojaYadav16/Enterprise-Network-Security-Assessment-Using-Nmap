@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Tue Nov  3 04:35:40 2026 as: /usr/lib/nmap/nmap -sn -oN /home/kali/Nmap-Security-Assessment/01-Asset-Discovery/host-discovery.txt 192.168.202.0/24
+Nmap scan report for 192.168.202.1
+Host is up (0.00022s latency).
+MAC Address: 00:50:56:C0:00:01 (VMware)
+Nmap scan report for 192.168.202.128
+Host is up (0.00078s latency).
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+Nmap scan report for 192.168.202.254
+Host is up (0.00033s latency).
+MAC Address: 00:50:56:FD:8B:6E (VMware)
+Nmap scan report for 192.168.202.129
+Host is up.
+# Nmap done at Tue Nov  3 04:36:08 2026 -- 256 IP addresses (4 hosts up) scanned in 27.91 seconds

@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Thu Nov  5 08:33:56 2026 as: /usr/lib/nmap/nmap -sS -p 23 --reason -oN /home/kali/Nmap-Security-Assessment/06-Remediation/telnet-verification.txt 192.168.202.128
+Nmap scan report for 192.168.202.128
+Host is up, received arp-response (0.0014s latency).
+
+PORT   STATE    SERVICE REASON
+23/tcp filtered telnet  no-response
+MAC Address: 00:0C:29:FA:DD:2A (VMware)
+
+# Nmap done at Thu Nov  5 08:34:10 2026 -- 1 IP address (1 host up) scanned in 14.04 seconds
