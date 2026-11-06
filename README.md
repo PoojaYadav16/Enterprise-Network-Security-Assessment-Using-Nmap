@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="nmap project banner.png" alt="Enterprise Network Security Assessment Using Nmap" width="100%">
+  <img src="nmap-project-banner.png" alt="Enterprise Network Security Assessment Using Nmap" width="100%">
 </p>
 
 <h1 align="center">Enterprise Network Security Assessment Using Nmap</h1>
